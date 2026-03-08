@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "../../dist/libs/shared",
+    "moduleResolution": "NodeNext",
+    "module": "NodeNext",
+    "types": ["node"]
+  },
+  "include": ["src/**/*.ts"]
+}
